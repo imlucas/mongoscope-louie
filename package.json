@@ -12,6 +12,10 @@
   "bin": {
     "louie": "./bin/louie.js"
   },
+  "keywords": [
+    "mongoscope",
+    "mongodb.js"
+  ],
   "dependencies": {
     "async": "^0.7.0",
     "d3": "^3.4.6",
