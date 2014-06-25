@@ -1,0 +1,22 @@
+{
+  "name": "mongoscope-louie",
+  "description": "Generate random workload to make mongoscope dance.",
+  "version": "0.0.1",
+  "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
+  "license": "MIT",
+  "homepage": "http://github.com/imlucas/mongoscope-louie",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imlucas/mongoscope-louie.git"
+  },
+  "bin": {
+    "louie": "./bin/louie.js"
+  },
+  "dependencies": {
+    "async": "^0.7.0",
+    "d3": "^3.4.6",
+    "mongoscope-client": "^0.0.4",
+    "superagent": "^0.17.0",
+    "yargs": "^1.2.1"
+  }
+}
